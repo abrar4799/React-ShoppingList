@@ -1,7 +1,7 @@
 
 
-import ExpensItem from "./componants/ExpensItem";
-import Expense from "./componants/Expense";
+import ExpensItem from "./components/ExpensItem";
+import Expense from "./components/Expense";
 
 function App() {
 
