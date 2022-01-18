@@ -55,9 +55,9 @@ const ExpenseForm = (props) => {
   return (
     <div>
       <form onSubmit={submitHandler}>
-        <div className="new-expense__controls ">
-          <label>Title: </label>
-          <input type="text" value={enteredTitle} onChange={titleChangeHandler} />
+        <div className="new-expense__controls  ">
+          <label className="new-expense__control label">Title: </label>
+          <input type="text" value={enteredTitle} onChange={titleChangeHandler}  className="new-expense__control input"/>
           
         </div>
         <div className="new-expense__controls ">

@@ -13,7 +13,7 @@
   
   .expenses-filter label {
     font-weight: bold;
-   /* margin-bottom: 0.5rem;*/
+    margin-bottom: 0.5rem;
   }
   
   .expenses-filter select {
